@@ -10,6 +10,7 @@
 时间复杂度：O(n²)，需要下一步优化；
 缺点：进行了两次遍历，优化想法：能不能把第二次遍历变成一个时间复杂度为O(1)的操作（利用哈希表查询）
 代码：
+
     class Solution(object):
     def twoSum(self, nums, target):
         for i in range(len(nums)):
@@ -25,6 +26,7 @@ target-x 的项，若有则返回对应的两个下标，否则把这一项加�
 注意事项：1、字典的 key和value 对应的含义不要搞反了，目标是返回下标，所以key应为值，value为对应的下标；
         2、不能先遍历完再查询，因为这可能会出现自身和自身相加为target的情况：比如 nums=[3,2,4],target=6 这个输入；
 代码：
+    
     class Solution(object):
     def twoSum(self, nums, target):
         d={}
