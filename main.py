@@ -1,2 +1,2 @@
-print('No Y in Happiness')
-print('My name is','Zhang Jiale')
+s = 'zhang'
+print(s[0:3])
