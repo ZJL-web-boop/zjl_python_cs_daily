@@ -46,7 +46,7 @@ while number != answer and count <7:
             time.sleep(1)
             if number == answer:
                 count = count + 1
-if count > 7 or (count ==7 and number != answer):
+if count ==7 and number != answer:
     print("很遗憾！您的猜测次数已用完!")
     print('挑战失败！')
 else:
