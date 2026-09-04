@@ -149,3 +149,21 @@ class Solution(object):
 4. **`in` 的复杂度因容器而异**：对 list 是 O(n) 线性扫描，对 set/dict 是 O(1) 哈希定位——复述一遍原因（结合"集合和字典都是哈希表"）
 5. **可哈希（hashable）**：什么对象能当 set 元素 / dict 键？为什么 list 不行？（这和"不可变"概念直接相关，视频学到 tuple 时回来验证）
 6. **`sum` 的参数签名**：`sum(iterable, /, start=0)`——start 默认 0，所以 sum 天生是数相加，拼字符串要用 `''.join`
+
+
+# Python学习（二）
+
+## 检验数据类型的函数type()
+
+```python
+num = 1
+print(type(num)) # 输出：<class 'int'>
+```
+
+## bool布尔型
+
+- 在Python中，布尔值可以当作整型来对待，True当作1，False当作0；
+
+```python
+print(True+False) # 输出为1，不报错
+```
