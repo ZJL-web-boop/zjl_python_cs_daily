@@ -5,7 +5,7 @@
 
 class Solution(object):
     def singleNumber(self, nums):
-        xor = 0
+        xor = 0 # 由于 0 ^ x = x ，所以这里的0对后续的异或操作没啥影响
         for i in nums:
             xor ^= i
         return xor
