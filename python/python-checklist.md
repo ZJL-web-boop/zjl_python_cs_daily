@@ -9,7 +9,7 @@
 - [√] 基本类型：int（无大小限制）、float、str、bool、None
 - [√] 运算符：`/` vs `//` vs `%`；`and` / `or` / `not`（绝不是 `&` `|`）
 - [ ] 字符串：拼接、格式化（f-string）、切片 `s[a:b:c]`、常用方法（`split` `join` `strip` `replace`）
-- [ ] 条件与循环：`if/elif/else`、`for x in ...`、`while`、`break/continue`
+- [√] 条件与循环：`if/elif/else`、`for x in ...`、`while`、`break/continue`
 - [√] `range()` 和 `enumerate()`：什么时候用哪个
 
 ## 阶段二：数据结构（核心，面试必考）
