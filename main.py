@@ -1,3 +1,2 @@
-name = "Zhang Jiale"
-print(name.lower()) # 输出：zhang jiale
-print(name.upper()) # 输出：ZHANG JIALE
+dic = {0:[1,2,3], 1:1, 2:2}
+print(dic.values())
